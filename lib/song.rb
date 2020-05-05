@@ -24,6 +24,3 @@ def self.new_by_name(song_name)
 def self.new_by_name(name)
   @@all.new {|song| song.name ==name}
 end
-
-  
-
